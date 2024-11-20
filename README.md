@@ -39,16 +39,16 @@ Diagrams of the database schema and network architecture are available in the `d
    python app.py
 3. Retrieve the local IP address from the terminal and open it in a browser.
 
-##Project Structure
+## Project Structure
 - Frontend: Forms for managing records (HTML/CSS).
 - Backend: API for database communication.
 - SQL Commands: SQL scripts for creating and managing the database structure.
 
-##Key Functionalities
+## Key Functionalities
 - Cooperation Points Table: Shared between nodes.
 - Data Replication: Synchronizes data across locations.
 - Views and Data Refreshing: Ensures data consistency throughout the system.
 
-##Issues and Limitations
+## Issues and Limitations
 - GUI does not support client record deletion due to SQL permission restrictions.
 - Sharding functionality unavailable in the free version of Oracle 23c.
