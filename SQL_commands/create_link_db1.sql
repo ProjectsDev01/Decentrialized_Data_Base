@@ -1,0 +1,8 @@
+CREATE DATABASE LINK link_to_dbs2
+CONNECT TO user_wwa IDENTIFIED BY "oracle"
+USING '(DESCRIPTION=
+         (ADDRESS=(PROTOCOL=TCP)(HOST=46.60.20.5)(PORT=1539))
+         (CONNECT_DATA=(SERVICE_NAME=freepdb1))
+       )';
+
+
